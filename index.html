@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Odin Form</title>
+</head>
+<body>
+    <div class="left-side">
+        <img src="image.png" alt="image">
+    </div>
+    <div class="right-side">
+        <div class="text">
+            <h1>Explore. Mine. Sustain.</h1>
+            <p>Through advanced robotics and autonomous technology, we’re tapping into the next frontier of precious metals and rare elements, essential for innovation on Earth and in Space.
+                <br>Join us as we build a sustainable, space-based supply chain that reduces environmental impact on Earth and powers the economy of tomorrow.
+            </p>
+            <div class="p-blink">
+                <p class="p-bold">Ready to venture beyond Earth?&nbsp;</p>
+                <img src="blink.png" alt="blink" class="blinker">
+            </div>
+
+        </div>
+        <form action="">
+            <p>
+                <input type="text" class="input-left" id="first_name" placeholder="First Name">
+            </p>
+            <p>
+                <input type="text" class="input-right" id="last_name" placeholder="Last Name">
+            </p>
+            <p>
+                <input type="email" class="input-left" id="email" placeholder="Email">
+            </p>
+            <p>
+                <input type="tel" class="input-right" id="phone" placeholder="Phone Number">
+            </p>
+            <p>
+                <input type="password" class="input-left" id="password" placeholder="Password" pattern="^(?=.*[A-Z])(?=(.*\d.*\d)).+$">
+                <label for="password" class="label-pass">Must be 8 or more characters and contain at least 2 numbers and 1 uppercase letter</label>
+            </p>
+            <p>
+                <input type="password" class="input-right" id="password_confirm" placeholder="Repeat Password" pattern="^(?=.*[A-Z])(?=(.*\d.*\d)).+$">
+            </p>
+            <p>
+                <button type="submit">Join The Waiting List</button>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
