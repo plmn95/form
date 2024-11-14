@@ -36,11 +36,11 @@
                 <input type="tel" class="input-right" id="phone" placeholder="Phone Number">
             </p>
             <p>
-                <input type="password" class="input-left" id="password" placeholder="Password" pattern="^(?=.*[A-Z])(?=(.*\d.*\d)).+$">
+                <input type="password" class="input-left" id="password" placeholder="Password" pattern="^(?=.*[A-Z])(?=(.*\d){2,}).{8,}$">
                 <label for="password" class="label-pass">Must be 8 or more characters and contain at least 2 numbers and 1 uppercase letter</label>
             </p>
             <p>
-                <input type="password" class="input-right" id="password_confirm" placeholder="Repeat Password" pattern="^(?=.*[A-Z])(?=(.*\d.*\d)).+$">
+                <input type="password" class="input-right" id="password_confirm" placeholder="Repeat Password" pattern="^(?=.*[A-Z])(?=(.*\d){2,}).{8,}$">
             </p>
             <p>
                 <button type="submit">Join The Waiting List</button>
